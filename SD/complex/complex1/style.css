@@ -1,0 +1,22 @@
+body {
+    font: 16px Arial, sans-serif;
+    margin: 20px;
+    background: #eee;
+    color: #222;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+nav, #products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+ 
+nav {
+    background:grey;
+    padding: 12px;
+}
